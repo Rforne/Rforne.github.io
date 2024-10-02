@@ -1,0 +1,71 @@
+body{background-color:rgb(15, 0, 28);}
+
+#welcomeHeader{
+    color:aliceblue;
+    font-size: 70px;
+    animation: titleFadeIn ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes titleFadeIn{
+    0%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
+#aboutMe{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.2;
+    animation: aboutFadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    float: left;
+}
+@keyframes aboutFadeIn{
+    0%{ opacity: 0; }
+    20%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
+#coursework{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.5;
+    animation: courseFadeIn ease 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+@keyframes courseFadeIn{
+    0%{ opacity: 0; }
+    30%{ opacity: 0; }
+    100%{ opacity: 1}
+}
+#links{
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    animation: linksFadeIn ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes linksFadeIn{
+    0%{ opacity: 0; }
+    40%{ opacity: 0; }
+    100%{ opacity: 1; }
+}
+#resumeLogo{ /* Resume image taken from https://en.m.wikipedia.org/wiki/File:Read-the-docs.png*/
+    width: 48px;
+    height: 48px;
+}
+#resumeLogo
+#githubLogo{ /* Github image taken from https://pngimg.com/image/73390*/
+    width: 48px;
+    height: 48px;
+}
+#emailLogo{ /* Email image taken from https://pngimg.com/image/100736*/
+    width: 48px;
+    height: 48px;
+}
